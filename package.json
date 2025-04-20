@@ -1,0 +1,26 @@
+{
+  "name": "web-servers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test":"jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "hbs": "^4.2.0",
+    "request": "^2.88.2"
+  }
+}
